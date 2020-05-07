@@ -18,15 +18,17 @@ body{
 }
 
 #img{
-    width: 250px;
+    width: 230px;
     margin-bottom: 15px;
 }
 h1{
-color: var(--primery-color);
-margin: 0;
+    font-size: 28px;
+    color: var(--primery-color);
+    margin: 0;
 }
 p{
-    margin:0;
+    margin-top: 10px;
+    margin-bottom:0;
     padding:0;
 }
 .btn{
@@ -57,13 +59,14 @@ p{
     background: url(../images/option.png);
     background-size: 12px;
     background-repeat: no-repeat;
-    background-position: 60px 10px;
+    background-position: 60px 14px;
 }
 .currency input{
     border: 0;
     text-align: right;
-    position: absolute;
-    /* width: 60%; */
+    /* position: absolute; */
+    max-width: 60%;
+    width: 200px;
     /* right: 5%; */
     background: transparent;
     font-size: 30px;
@@ -81,12 +84,12 @@ p{
 #date{
     color: var(--primery-color);
     font-size: 16px;
-    margin-top: -20px;
-    margin-bottom: 20px;
+    margin-top: -40px;
+    margin-bottom: 60px;
     text-align: right;
-    padding: 15px 0;
-    display: flex;
-    justify-content: end;
+    padding: 20px 0;
+    /* display: flex; */
+    justify-content: center;
 }
 .bottom-bar{
     background-color:var(--primery-color);
@@ -108,6 +111,10 @@ p{
     padding-top:15px;
     left: 12%;
     position: absolute;
+}
+.reg{
+    position: absolute;
+    right:0;
 }
 .info{
     padding-top:5px;
@@ -132,10 +139,4 @@ p{
 
 select:focus,input:focus,button:focus{
     outline: 0;
-}
-
-@media (max-width : 800px){
-    .container,.bottom-bar, .currency{
-        width: 100%;
-    }
 }
