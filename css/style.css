@@ -134,7 +134,7 @@ select:focus,input:focus,button:focus{
 }
 
 @media (max-width : 800px){
-    .container,.bottom-bar, .currency input{
-        width: 90%;
+    .container,.bottom-bar, .currency{
+        width: 100%;
     }
 }
